@@ -1,0 +1,16 @@
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\bin\Debug\net7.0\EnergyOutageNotifier.Business.deps.json
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\bin\Debug\net7.0\EnergyOutageNotifier.Business.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\bin\Debug\net7.0\EnergyOutageNotifier.Business.pdb
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOutageNotifier.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOutageNotifier.Business.AssemblyInfoInputs.cache
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOutageNotifier.Business.AssemblyInfo.cs
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOutageNotifier.Business.csproj.CoreCompileInputs.cache
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOutageNotifier.Business.sourcelink.json
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOutageNotifier.Business.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\refint\EnergyOutageNotifier.Business.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOutageNotifier.Business.pdb
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\ref\EnergyOutageNotifier.Business.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\bin\Debug\net7.0\EnergyOutageNotifier.Models.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\bin\Debug\net7.0\EnergyOutageNotifier.Models.pdb
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOutageNotifier.Business.csproj.AssemblyReference.cache
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Business\obj\Debug\net7.0\EnergyOu.F8F50A9C.Up2Date

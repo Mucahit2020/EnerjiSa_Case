@@ -1,0 +1,100 @@
+<div class="alert alert-danger" role="alert" *ngIf="showContainer$ | async">
+  <h4 class="alert-heading">Yeni Kesinti!</h4>
+  <p>Bildirim Numarası : {{ notificationResultDto?.notificationId }}</p>
+  <p>
+    Kesinti Başlangıç Zamanı :
+    {{ notificationResultDto?.outageStartTime | date : "dd/MM/yyyy HH:mm" }}
+  </p>
+  <p>
+    Tahmini Bitiş Zamanı :
+    {{ notificationResultDto?.outageETD | date : "dd/MM/yyyy HH:mm" }}
+  </p>
+  <p>Etkilenen Bölge: {{ notificationResultDto?.affectedArea }}</p>
+  <p>
+    Bildirim Detayı:
+    {{ notificationResultDto?.notification?.notificationDetail }}
+  </p>
+  <p>Kesinti Sebebi: {{ notificationResultDto?.outageCause }}</p>
+  <p>Bildirim Zamanı: {{ notificationResultDto?.notification?.notificationTime| date : "dd/MM/yyyy HH:mm" }}</p>
+
+  <button
+    style="position: absolute; top: 5px; right: 5px"
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+    (click)="closeContainer()"
+  ></button>
+</div>
+<dx-data-grid
+  id="gridContainer"
+  [dataSource]="dataSource"
+  [remoteOperations]="false"
+  [allowColumnReordering]="false"
+  [rowAlternationEnabled]="true"
+  [showBorders]="true"
+  [width]="'100%'"
+  [grouping]="{ autoExpandAll: false }"
+  [groupPanel]="{ visible: false }"
+>
+  <dxo-paging [pageSize]="10"></dxo-paging>
+  <dxo-pager
+    [showPageSizeSelector]="true"
+    [allowedPageSizes]="[10, 25, 50, 100]"
+  ></dxo-pager>
+  <dxo-search-panel
+    [visible]="true"
+    [highlightCaseSensitive]="true"
+  ></dxo-search-panel>
+  <dxo-group-panel [visible]="true"></dxo-group-panel>
+
+  <dxi-column
+    dataField="outageId"
+    caption="Kesinti Numarası"
+    dataType="number"
+    alignment="right"
+  ></dxi-column>
+
+  <dxi-column
+    dataField="outageStartTime"
+    caption="Kesinti Başlangıç Zamanı"
+    dataType="date"
+    format="dd.MM.yyyy HH:mm:ss"
+  >
+  </dxi-column>
+
+  <dxi-column
+    dataField="outageETD"
+    caption="Tahmini Bitiş Zamanı"
+    dataType="date"
+    format="dd.MM.yyyy HH:mm:ss"
+  >
+  </dxi-column>
+
+  <dxi-column
+    dataField="notification.notificationTime"
+    caption="Bildirim Zamanı"
+    dataType="date"
+    format="dd.MM.yyyy HH:mm:ss"
+  >
+  </dxi-column>
+
+  <dxi-column
+    dataField="notification.affectedArea"
+    caption="Etkilenen Bölge "
+    dataType="string"
+    alignment="right"
+  ></dxi-column>
+  <dxi-column
+    dataField="notification.notificationDetail"
+    caption="Bildirim Detayı "
+    dataType="string"
+    alignment="right"
+  ></dxi-column>
+  <dxi-column
+    dataField="outageCause"
+    caption="Kesinti Detayı"
+    dataType="string"
+    alignment="right"
+  ></dxi-column>
+</dx-data-grid>

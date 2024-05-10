@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJELER\\EnergyOutageNotifier\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF7B4420-9B3D-4C9B-BF03-EFF7D453203E}|EnergyOutageNotifier.API\\EnergyOutageNotifier.API.csproj|c:\\projeler\\energyoutagenotifier\\energyoutagenotifier.api\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF7B4420-9B3D-4C9B-BF03-EFF7D453203E}|EnergyOutageNotifier.API\\EnergyOutageNotifier.API.csproj|solutionrelative:energyoutagenotifier.api\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF7B4420-9B3D-4C9B-BF03-EFF7D453203E}|EnergyOutageNotifier.API\\EnergyOutageNotifier.API.csproj|c:\\projeler\\energyoutagenotifier\\energyoutagenotifier.api\\extensions\\signalr\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF7B4420-9B3D-4C9B-BF03-EFF7D453203E}|EnergyOutageNotifier.API\\EnergyOutageNotifier.API.csproj|solutionrelative:energyoutagenotifier.api\\extensions\\signalr\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8608AFB-A27F-4B5E-8B87-7F2232D3EAB4}|EnergyOutageNotifier.Business\\EnergyOutageNotifier.Business.csproj|c:\\projeler\\energyoutagenotifier\\energyoutagenotifier.business\\services\\abstracts\\ioutageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8608AFB-A27F-4B5E-8B87-7F2232D3EAB4}|EnergyOutageNotifier.Business\\EnergyOutageNotifier.Business.csproj|solutionrelative:energyoutagenotifier.business\\services\\abstracts\\ioutageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8608AFB-A27F-4B5E-8B87-7F2232D3EAB4}|EnergyOutageNotifier.Business\\EnergyOutageNotifier.Business.csproj|c:\\projeler\\energyoutagenotifier\\energyoutagenotifier.business\\services\\concrates\\outageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8608AFB-A27F-4B5E-8B87-7F2232D3EAB4}|EnergyOutageNotifier.Business\\EnergyOutageNotifier.Business.csproj|solutionrelative:energyoutagenotifier.business\\services\\concrates\\outageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8608AFB-A27F-4B5E-8B87-7F2232D3EAB4}|EnergyOutageNotifier.Business\\EnergyOutageNotifier.Business.csproj|c:\\projeler\\energyoutagenotifier\\energyoutagenotifier.business\\services\\abstracts\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8608AFB-A27F-4B5E-8B87-7F2232D3EAB4}|EnergyOutageNotifier.Business\\EnergyOutageNotifier.Business.csproj|solutionrelative:energyoutagenotifier.business\\services\\abstracts\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF7B4420-9B3D-4C9B-BF03-EFF7D453203E}|EnergyOutageNotifier.API\\EnergyOutageNotifier.API.csproj|c:\\projeler\\energyoutagenotifier\\energyoutagenotifier.api\\controllers\\outagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF7B4420-9B3D-4C9B-BF03-EFF7D453203E}|EnergyOutageNotifier.API\\EnergyOutageNotifier.API.csproj|solutionrelative:energyoutagenotifier.api\\controllers\\outagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF7B4420-9B3D-4C9B-BF03-EFF7D453203E}|EnergyOutageNotifier.API\\EnergyOutageNotifier.API.csproj|c:\\projeler\\energyoutagenotifier\\energyoutagenotifier.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF7B4420-9B3D-4C9B-BF03-EFF7D453203E}|EnergyOutageNotifier.API\\EnergyOutageNotifier.API.csproj|solutionrelative:energyoutagenotifier.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.API\\Extensions\\SignalR\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "EnergyOutageNotifier.API\\Extensions\\SignalR\\NotificationHub.cs",
+              "ToolTip": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.API\\Extensions\\SignalR\\NotificationHub.cs",
+              "RelativeToolTip": "EnergyOutageNotifier.API\\Extensions\\SignalR\\NotificationHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T23:25:27.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OutageServices.cs",
+              "DocumentMoniker": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.Business\\Services\\Concrates\\OutageServices.cs",
+              "RelativeDocumentMoniker": "EnergyOutageNotifier.Business\\Services\\Concrates\\OutageServices.cs",
+              "ToolTip": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.Business\\Services\\Concrates\\OutageServices.cs",
+              "RelativeToolTip": "EnergyOutageNotifier.Business\\Services\\Concrates\\OutageServices.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowC0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:16:34.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOutageService.cs",
+              "DocumentMoniker": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.Business\\Services\\Abstracts\\IOutageService.cs",
+              "RelativeDocumentMoniker": "EnergyOutageNotifier.Business\\Services\\Abstracts\\IOutageService.cs",
+              "ToolTip": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.Business\\Services\\Abstracts\\IOutageService.cs",
+              "RelativeToolTip": "EnergyOutageNotifier.Business\\Services\\Abstracts\\IOutageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:15:50.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.Business\\Services\\Abstracts\\INotificationService.cs",
+              "RelativeDocumentMoniker": "EnergyOutageNotifier.Business\\Services\\Abstracts\\INotificationService.cs",
+              "ToolTip": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.Business\\Services\\Abstracts\\INotificationService.cs",
+              "RelativeToolTip": "EnergyOutageNotifier.Business\\Services\\Abstracts\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:15:45.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.API\\Program.cs",
+              "RelativeDocumentMoniker": "EnergyOutageNotifier.API\\Program.cs",
+              "ToolTip": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.API\\Program.cs",
+              "RelativeToolTip": "EnergyOutageNotifier.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:14:24.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OutageController.cs",
+              "DocumentMoniker": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.API\\Controllers\\OutageController.cs",
+              "RelativeDocumentMoniker": "EnergyOutageNotifier.API\\Controllers\\OutageController.cs",
+              "ToolTip": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.API\\Controllers\\OutageController.cs",
+              "RelativeToolTip": "EnergyOutageNotifier.API\\Controllers\\OutageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:13:40.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.API\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "EnergyOutageNotifier.API\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\PROJELER\\EnergyOutageNotifier\\EnergyOutageNotifier.API\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "EnergyOutageNotifier.API\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAiwHYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T19:23:21.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

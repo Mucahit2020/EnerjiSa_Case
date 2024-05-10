@@ -1,0 +1,15 @@
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\bin\Debug\net7.0\EnergyOutageNotifier.Models.deps.json
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\bin\Debug\net7.0\EnergyOutageNotifier.Models.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\bin\Debug\net7.0\EnergyOutageNotifier.Models.pdb
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.AssemblyInfoInputs.cache
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.AssemblyInfo.cs
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.csproj.CoreCompileInputs.cache
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.sourcelink.json
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\refint\EnergyOutageNotifier.Models.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.pdb
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\ref\EnergyOutageNotifier.Models.dll
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\bin\Debug\net7.0\EnergyOutageNotifier.Models.runtimeconfig.json
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.csproj.AssemblyReference.cache
+C:\PROJELER\EnergyOutageNotifier\EnergyOutageNotifier.Models\obj\Debug\net7.0\EnergyOutageNotifier.Models.genruntimeconfig.cache

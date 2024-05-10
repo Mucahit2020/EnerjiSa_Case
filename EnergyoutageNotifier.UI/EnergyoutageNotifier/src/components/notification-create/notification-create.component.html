@@ -1,0 +1,39 @@
+<dx-form [formData]="formData" (onSubmit)="onSubmit()">
+  <dxi-item
+    dataField="OutageStartTime"
+    [editorOptions]="dateOptions"
+    [editorOptions]="{ label: 'Kesinti Başlangıç Zamanı' }"
+  ></dxi-item>
+  <dxi-item
+    dataField="OutageETD"
+    [editorOptions]="dateOptions"
+    [editorOptions]="{ label: 'Kesinti Tahmini Sona Eriş Zamanı' }"
+  ></dxi-item>
+  <dxi-item
+    dataField="AffectedArea"
+    editorType="dxTextBox"
+    [editorOptions]="{ label: 'Etkilenen Bölge' }"
+  ></dxi-item>
+  <dxi-item
+    dataField="NotificationDetail"
+    editorType="dxTextBox"
+    [editorOptions]="{ label: 'Bildirim Detayı' }"
+  ></dxi-item>
+  <dxi-item
+    dataField="OutageCause"
+    editorType="dxTextBox"
+    [editorOptions]="{ label: 'Kesinti Detayı' }"
+  ></dxi-item>
+  <dx-button
+    text="Kaydet"
+    type="success"
+    [useSubmitBehavior]="true"
+  ></dx-button>
+</dx-form>
+
+<!-- <dx-form [formData]="employee">
+  <dxi-item dataField="name"></dxi-item>
+  <dxi-item dataField="officeNumber"></dxi-item>
+  <dxi-item dataField="OutageStartTime" [editorOptions]="hireDateOptions">
+  </dxi-item>
+</dx-form> -->

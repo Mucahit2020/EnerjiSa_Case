@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GWKV+iatntAC0K+vZKa/i4R3z/N0Idn94tRzwpN5VK4=",
+  "Source": "EnergyOutageNotifier.API",
+  "BasePath": "_content/EnergyOutageNotifier.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

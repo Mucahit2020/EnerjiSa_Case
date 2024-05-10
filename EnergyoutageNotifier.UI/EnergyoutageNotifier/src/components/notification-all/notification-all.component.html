@@ -1,0 +1,91 @@
+<dx-data-grid
+  id="gridContainer"
+  [dataSource]="dataSource"
+  [remoteOperations]="false"
+  [allowColumnReordering]="false"
+  [rowAlternationEnabled]="true"
+  [showBorders]="true"
+  [width]="'100%'"
+  [grouping]="{ autoExpandAll: false }"
+  [groupPanel]="{ visible: false }"
+>
+  <dxo-paging [pageSize]="10"></dxo-paging>
+  <dxo-pager
+    [showPageSizeSelector]="true"
+    [allowedPageSizes]="[10, 25, 50, 100]"
+  ></dxo-pager>
+  <dxo-search-panel
+    [visible]="true"
+    [highlightCaseSensitive]="true"
+  ></dxo-search-panel>
+  <dxo-group-panel [visible]="true"></dxo-group-panel>
+
+  <dxi-column
+    dataField="outageId"
+    caption="Kesinti Numarası"
+    dataType="number"
+    alignment="right"
+  ></dxi-column>
+
+  <dxi-column
+    dataField="outageStartTime"
+    caption="Kesinti Başlangıç Zamanı"
+    dataType="date"
+    format="dd.MM.yyyy HH:mm:ss"
+  >
+  </dxi-column>
+
+  <dxi-column
+    dataField="outageETD"
+    caption="Tahmini Bitiş Zamanı"
+    dataType="date"
+    format="dd.MM.yyyy HH:mm:ss"
+  >
+  </dxi-column>
+
+  <dxi-column
+  dataField="notification.notificationType"
+  caption="Bildirim Tipi"
+  dataType="number"
+  cellTemplate="successTemplate">
+</dxi-column>
+
+
+ <div *dxTemplate="let data of 'successTemplate'">
+  <!-- <img [src]="data.value" /> -->
+
+  <ng-container *ngIf="data.value !== undefined && data.value !== null">
+
+    <div *ngIf="data.value === 1; else noOutage">Kesinti Devam Ediyor</div>
+    <ng-template #noOutage>Kesinti Sona Erdi</ng-template>
+
+  </ng-container>
+</div>
+
+  <dxi-column
+    dataField="notification.notificationTime"
+    caption="Bildirim Zamanı"
+    dataType="date"
+    format="dd.MM.yyyy HH:mm:ss"
+  >
+  </dxi-column>
+
+  <dxi-column
+    dataField="notification.affectedArea"
+    caption="Etkilenen Bölge "
+    dataType="string"
+    alignment="right"
+  ></dxi-column>
+  <dxi-column
+    dataField="notification.notificationDetail"
+    caption="Bildirim Detayı "
+    dataType="string"
+    alignment="right"
+  ></dxi-column>
+  <dxi-column
+    dataField="outageCause"
+    caption="Kesinti Detayı"
+    dataType="string"
+    alignment="right"
+  ></dxi-column>
+</dx-data-grid>
